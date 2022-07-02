@@ -1,0 +1,1 @@
+web pas dirunnung pada zoom 67%an, diatas itu agak hancur,masi belum paham tentang responsif pada bagian img

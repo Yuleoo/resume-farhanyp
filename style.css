@@ -1,0 +1,694 @@
+h1, h2, h3, h4, h5, h6, p, div, hr {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f3f4f9;
+  font-family: 'Bebas Neue';
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none; 
+} 
+
+.header{
+    background-color: #f3f4f9 ;
+    width: 100%;
+    color: #4f4f4f;
+    position: fixed;
+    top: 0;
+    z-index: 10;  
+}
+  
+
+.header-left{
+  float: left;
+  margin-left: 200px;
+  padding: 12px 30px 12px 100px;
+  line-height: 2.5rem;
+  color: white;
+
+}
+.logo {
+  padding: 20px 10px;
+  color: #e36279;
+  display: inline-block;
+  border-radius: 4px;
+}
+.logo fa {
+  padding: 20px 10px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 4px;
+  
+}
+.header-right{
+  float: right;
+ 
+}
+.button-menu{
+  float: right;
+  background: #f05d7b;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 25px;
+  margin: 10px 300px 0 0;
+  padding: 12px 30px 12px 30px;
+  text-decoration: none;
+  border:none;
+}
+
+.button-menu:hover{
+  background: #513dba;
+  text-decoration: none;
+  
+}
+
+.menu{
+    float: right;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #dedede;
+    width: fit-content;
+    padding: 1rem;
+    margin-top: .4rem;
+    border:none;
+    font-size: 25px;
+}
+
+.menu-list{
+    color: #513dba;
+    text-decoration: none;
+    padding: .10rem 1rem;
+    background-color: #908CE3;
+    border:none;
+}
+.menu.open{
+    display: flex;
+}
+/*  topwrap */
+.top-wrapper {
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+.grid-0 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* items */
+
+.grid-0 div {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  }
+
+/* specific item styles */
+
+.textitem h1 {
+  font-size: 36px;
+  letter-spacing: 5px;
+  margin: 100px 0 0px 0;
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  color: #f05d7b;
+}
+.textitem h2 {
+  font-size: 120px;
+  color: #000000;
+  font-family: 'Bebas Neue';
+}
+.textitem h3 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #616161;
+  font-family: 'Arima Madurai';
+}
+
+.textitem p {
+  font-size: 36px;
+  letter-spacing: 5px;
+  margin: 100px 0 20px 0;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  color: #f05d7b;
+}
+.textitem span{
+  color: #000000;
+}
+.photo{
+  padding-left: 20px;
+}
+
+.bottom-confeti{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  padding-top: 350px;
+
+}
+.top-confeti{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  padding-left: 450px;
+
+} 
+
+
+.btn {
+  background: #f05d7b;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #f05d7b 1px;
+  text-decoration: none;
+}  
+.btn:hover {
+  background: #f05d7b ;
+  text-decoration: none;
+}
+
+.about-wrapper {
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 100px;
+  width: 75%;
+  padding: 100px 0 600px 0;
+  background-color: white;
+  text-align: justify;
+  border-radius: 35px;
+  font-family: 'Bebas Neue';
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+
+/* aboutme*/
+.about-wrapper h1{
+  color:#e36279 ;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.about-wrapper h2{
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 20px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.lesson h2{
+  font-size: 45px;
+  margin-right: 1000px;
+  color: #4f4f4f;
+  text-align: left;
+
+}
+.lesson p{
+  font-size: 25px;
+  padding-left: 100px;
+  color: #4f4f4f;
+}
+
+.lesson li{
+  font-size: 25px;
+  padding-left: 60px;
+  color: #4f4f4f;
+
+}
+
+.about-wrapper h3{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 36px;
+  letter-spacing: 10px;
+  color: #4f4f4f;
+}
+
+.about-wrapper p{
+  font-family: 'Arima Madurai';
+}
+
+.grid-1 {
+  padding-top: 40px;
+  display: grid;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;;
+}
+
+/* items */
+
+.grid-1 div {
+  color: #031b46;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* specific item styles */
+
+.item-1 {
+  background-image: url(picture/l1.png) ;
+  height: 100px;
+  width: 100px;
+}
+
+.item-2 h1{
+  margin-right: 20px;
+  text-align: left;
+  color: #031b46;
+  font-family: 'Arima Madurai';
+  font-size: 16px;
+}
+.item-3 {
+  background-image: url(picture/l2.png) ;
+  height: 100px;
+  width: 100px;
+}
+.item-4 h1{
+  margin-right: 20px;
+  text-align: left;
+  color: #031b46;
+  font-family: 'Arima Madurai';
+  font-size: 16px;
+}
+.item-5 {
+  background-image: url(picture/l3.png) ;
+  height: 110px;
+  width: 110px;
+}
+.item-6 h1{
+  margin-right: 20px;
+  text-align: left;
+  color: #031b46;
+  font-family: 'Arima Madurai';
+  font-size: 16px;
+}
+.item-7 {
+  background-image: url(picture/l5.png) ;
+  height: 110px;
+  width: 110px;
+}
+.item-8 h1{
+  margin-right: 20px;
+  text-align: left;
+  color: #031b46;
+  font-family: 'Arima Madurai';
+  font-size: 16px;
+}
+
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+.edu-wrapper h1{
+  color:#e36279 ;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.edu-wrapper h2{
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 20px;
+}
+
+.edu-wrapper {
+  margin: auto;
+  margin-bottom: 100px;
+  width: 75%;
+  padding: 100px 0 600px 0;
+  text-align: justify;
+  font-family: 'Bebas Neue';
+}
+
+.grid-2 {
+  display: grid;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;;
+}
+
+/* items */
+
+.grid-2 div {
+  color: #031b46;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.item1-1 {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  width: 100%;
+  padding: 100px 0 600px 0;
+  background-color: white;
+  text-align: justify;
+  border-radius: 10px;
+  font-family: 'Arima Madurai';
+}
+
+.item1-2{
+  margin: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 100px 0 600px 0;
+  background-color: white;
+  text-align: justify;
+  border-radius: 10px;
+  font-family: 'Arima Madurai';
+}
+.item1-3 {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 100px 0 600px 0;
+  background-color: white;
+  text-align: justify;
+  border-radius: 10px;
+  font-family: 'Arima Madurai';
+}
+
+.edu-wrapper h3{
+  color: #e36279;
+}
+
+.experiece-wrapper{
+  margin: auto;
+  width: 75%;
+  margin-top: -100px;
+  padding: 100px 0 150px 0;
+  background-color: white;
+  text-align: justify;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+  
+}
+.experiece-wrapper h2{
+  font-family: 'Bebas Neue';
+  margin-left: 100px;
+  margin-bottom: 50px;
+  font-size: 70px;
+  color: #e36279;
+  
+}
+
+.experiece-wrapper h3 {
+  font-family: 'Arima Madurai';
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.experiece-wrapper h4, li{
+  font-family: 'Arima Madurai';
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #616161;
+  padding-right: 800px;
+
+}
+/* portofo*/
+.portofo-contents{
+  margin: auto;
+  width: 100%;
+  margin-top: 50px;
+  padding: 100px 0 200px 0;
+  background-color: #ffff;
+  text-align: justify;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+
+}
+
+.grid-3 {
+  padding-top: 40px;
+  display: grid;
+  width: 100%;
+  max-width: 1750px;
+  height: 900px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+
+
+.grid-3 div {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  }
+
+
+.item3-1 h2{
+  letter-spacing: -5px;
+  color: #e36279;
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+}
+.item3-1 h3 {
+  text-align: left;
+  color: #e36279;
+  font-family: 'Bebas Neue';
+  font-size: 120px;
+}
+.item3-1 h4 {
+  text-align: left;
+  color: rgb(79, 79, 79);;
+  font-family: 'Arima Madurai';
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.porto-contents{
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+
+}
+.porto-item{
+  float:left;
+  width: 50%;
+  padding: 80px 0;
+}
+.porto-contents h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin: 80px 0 0px 0;
+  color: #e36279;
+}
+.porto-contents h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.porto-contents p {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.contents-item1 {
+  position: relative;
+}
+
+
+
+.bar {
+  background: #e7e6f9;
+  width: 0;
+  margin-left: 10%;
+  margin-right: 50%;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  clear: both;
+  font-family:'Arima Madurai' ;
+  
+}
+
+ .bar:nth-of-type(odd) {
+  background: #9898ee;
+}
+.bar .label {
+  font-size: .75em;
+  padding: 1em;
+  background: #212121;
+  width: 7em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  flex: auto;
+  display: flex;
+}
+.bar .label.second {
+  background: #333;
+}
+.count {
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+  font-weight: bold;
+}
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.error{
+  display: none;
+  color: red;
+}
+.confeti{
+    animation: confet 3s infinite ;
+}
+
+.bottom-container{
+  margin: auto;
+  margin-top: -850px;
+  width: 55%;
+  padding: 100px 0 30px 60px;
+  background-color: white;
+  text-align: justify;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.bottom-container h2{
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #e36279;
+  text-align: center;
+}
+.bottom-container h3{
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.map-wrapper {
+  margin: auto;
+  margin-top: 100px;
+  background-image: url(picture/map.png) ;
+  height: 900px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(100%);
+}
+.submit{
+  background: #e36279;
+  border-radius: 7px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+}
+.submit:hover{
+  background: #e36279;
+  text-decoration: none;
+}
+.footer-link{
+  color:  #fdfdfd;
+}
+input, textarea {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 26px;
+  border: 1px solid #dee7ec;
+}
+.lesson1 {
+  float: right;
+  width: 35%;
+  margin-top: -500px;
+}
+.lesson1 p{
+  font-size: 25px;
+  padding-bottom: 50px;
+  color: #4f4f4f;
+  padding-left: 150px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 10px;
+  background-color: #e36279;
+}
+
+.wrap h3{
+  text-align: center;
+  margin-bottom: 50px;
+  color: #e36279;
+  font-size: 36px;
+}
+@keyframes confet {
+    0%{
+        transform: translateX(-3rem);
+        
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-3rem);
+       
+    }
+
+}
+@media (max-width: 670px) {
+    .menu{
+        position: absolute;
+    transform: translateY(3rem);
+    }
+    .education{
+        flex-direction: column;
+    }
+    .card-body{
+        width: 100%;
+    }
+}
